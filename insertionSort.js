@@ -1,6 +1,8 @@
 /**
  * Insertion Sort
  * Complexity: O(n^2)
+ * 
+ * If the array is nearly sorted, insertion sort is really good. 
  */
 
 
