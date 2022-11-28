@@ -159,6 +159,16 @@ class DoublyLinkedList {
         return this;
         //see SinglyLinkedList.js for comments to get clear understanding.
     }
+
+    print(){
+        const arr = [];
+        let current = this.head;
+        while(current){
+            arr.push(current.val);
+            current = current.next;
+        }
+        console.log(arr);
+    }
 }
 
 let list = new DoublyLinkedList();
